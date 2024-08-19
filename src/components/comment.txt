@@ -1,0 +1,66 @@
+
+/*
+
+const EditFormPopup = () => {
+  // State to manage the visibility of the form
+  const [isFormVisible, setIsFormVisible] = useState(false);
+
+  // Function to toggle the visibility of the form
+  const toggleForm = () => {
+    setIsFormVisible(!isFormVisible);
+  };
+
+  return (
+    <div>
+      {/* Edit button that toggles the form }
+      <button onClick={toggleForm}>
+        {isFormVisible ? 'Close' : 'Edit'}
+      </button>
+
+      {/* Conditionally render the form based on isFormVisible state }
+      {isFormVisible && (
+        <div className="popup-form">
+          <h2>Edit Form</h2>
+          <form>
+            {/* Form fields go here }
+            <div>
+              <label htmlFor="name">Name:</label>
+              <input type="text" id="name" name="name" />
+            </div>
+            <div>
+              <label htmlFor="email">Email:</label>
+              <input type="email" id="email" name="email" />
+            </div>
+            <button type="submit">Submit</button>
+          </form>
+          <button onClick={toggleForm}>Close</button>
+        </div>
+      )}
+    </div>
+  );
+};
+
+
+
+// props example -
+
+//parent component
+
+Function App() {
+
+  const name = "jayesh"
+
+  return(
+    <ChildComponent name ={name} />
+  );
+}
+
+// child component
+
+Function ChildComponent(props){
+  return(
+    <h1>hello ,{props.name} !<h1>
+  );
+}
+
+export default EditFormPopup;   */
